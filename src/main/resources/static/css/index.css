@@ -1,0 +1,32 @@
+* {
+	margin: 0px 0px;
+	padding: 0px 0px;
+	/* border: 1px solid black; */
+}
+.container {
+	margin-top: 30px;
+	margin-bottom: 300px;
+}
+.row {
+	margin-top: 10px;
+}
+.key {
+	text-align: right;
+	line-height: 35px;
+}
+.key span {
+	color: red;
+}
+.middle {
+	height: 50px;
+}
+.first{
+	background-color: gainsboro;
+	font-weight: bold;
+	height: 30px;
+	line-height: 30px;
+}
+.value {
+	padding-bottom: 10px;
+	border-bottom: 1px solid gainsboro;
+}

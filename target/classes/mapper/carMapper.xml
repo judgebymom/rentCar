@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.ycl.dao.CarDao">
+
+    <select id="queryCar" resultType="cn.ycl.entity.Car">
+        select * from Car;
+    </select>
+
+    <insert id="insertCar" >
+        insert into Car(carNumber) values (#{carNumber});
+
+    </insert>
+
+    <delete id="deleteCar" >
+        delete from Car where carId=#{id};
+    </delete>
+
+    <update id="updateCar">
+        update Car set carNumber=#{carNumber} where carId=#{id};
+    </update>
+
+<!-- 模糊查询-->
+    <select id="queryCarLikely" resultType="cn.ycl.entity.Car">
+        SELECT * FROM Car where 1=1
+        <if test="carId!=null and carId!=''">
+        and carId=#{carId}
+        </if>
+        <if test="carNumber!=null and carNumber !='' " >
+        and carNumber=#{carNumber}
+        </if>
+    </select>
+
+
+
+</mapper>
