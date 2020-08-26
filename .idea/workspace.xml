@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7336234-a223-4114-a960-c29d924c0bc7" name="Default Changelist" comment="" />
+    <list default="true" id="b7336234-a223-4114-a960-c29d924c0bc7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ycl/test/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -28,6 +32,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1e2zV6WZkzsMbf2aVvNeXYbo6Fc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
@@ -45,7 +52,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -104,6 +111,7 @@
       <workItem from="1593534498774" duration="5919000" />
       <workItem from="1593565386217" duration="43153000" />
       <workItem from="1593649434349" duration="2623000" />
+      <workItem from="1598445662178" duration="578000" />
     </task>
     <servers />
   </component>
@@ -155,10 +163,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="513" y="146" key="Registry/0.0.1920.1040@0.0.1920.1040" timestamp="1593579462631" />
-    <state x="445" y="113" key="SettingsEditor" timestamp="1593579478701">
+    <state x="628" y="252" key="RollbackChangesDialog" timestamp="1598446019483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="445" y="113" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593579478701" />
+    <state x="628" y="252" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598446019483" />
+    <state x="445" y="113" key="SettingsEditor" timestamp="1598446239740">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="445" y="113" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598446239740" />
     <state x="646" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598445671753">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
