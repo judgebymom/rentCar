@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+#spring
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: mysql://localhost:3306/rentcar?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: admin
+  #≈‰÷√thymeleaf
+  mvc:
+    static-path-pattern: /static/**
+
+#mybatis
+mybatis:
+  mapper-locations: classpath:mapper/*.xml,classpath:mapper/*/*.xml
+
